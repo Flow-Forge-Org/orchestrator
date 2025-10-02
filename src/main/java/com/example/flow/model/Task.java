@@ -1,0 +1,27 @@
+package com.example.flow.model;
+
+import jakarta.persistence.*;
+import lombok.*;
+
+@Entity
+@Getter 
+@Setter 
+@NoArgsConstructor
+public class Task {
+	
+	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long Id;
+	
+	private String name;
+	private String type;
+	
+	@Column(columnDefinition = "text")
+	private String command;
+	
+	private int retries;
+	
+	@ManyToOne
+	@JoinColumn(name = "workflow_id")
+	private Workflow workflow;
+
+}
