@@ -1,5 +1,6 @@
 package com.example.flow.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -22,6 +23,7 @@ public class Task {
 	
 	@ManyToOne
 	@JoinColumn(name = "workflow_id")
+    @JsonBackReference
 	private Workflow workflow;
 
 }

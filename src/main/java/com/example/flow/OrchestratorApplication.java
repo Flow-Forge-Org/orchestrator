@@ -15,15 +15,15 @@ public class OrchestratorApplication {
 		SpringApplication.run(OrchestratorApplication.class, args);
 	}
 	
-	@Bean
-	CommandLineRunner runner(WorkflowRepository repo) {
-		return args -> {
-			Workflow w = new Workflow();
-			w.setName("test");
-			w.setStatus("active");
-			repo.save(w);
-			System.out.println("Saved Workflow Id: "+ w.getId());
-		};
-	}
+//	@Bean
+//	CommandLineRunner runner(WorkflowRepository repo) {
+//		return args -> {
+//			Workflow w = new Workflow();
+//			w.setName("test");
+//			w.setStatus("active");
+//			repo.save(w);
+//			System.out.println("Saved Workflow Id: "+ w.getId());
+//		};
+//	}
 
 }
