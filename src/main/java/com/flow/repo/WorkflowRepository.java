@@ -1,7 +1,7 @@
-package com.example.flow.repo;
+package com.flow.repo;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import com.example.flow.model.Workflow;
+import com.flow.model.Workflow;
 
 public interface WorkflowRepository extends JpaRepository<Workflow, Long>{
 

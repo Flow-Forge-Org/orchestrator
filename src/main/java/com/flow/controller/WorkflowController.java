@@ -1,8 +1,8 @@
-package com.example.flow.controller;
+package com.flow.controller;
 
-import com.example.flow.dto.WorkflowRequest;
-import com.example.flow.model.Workflow;
-import com.example.flow.service.WorkflowService;
+import com.flow.dto.WorkflowRequest;
+import com.flow.model.Workflow;
+import com.flow.service.WorkflowService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

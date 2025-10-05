@@ -1,4 +1,4 @@
-package com.example.flow.model;
+package com.flow.model;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;

@@ -1,4 +1,4 @@
-package com.example.flow.dto;
+package com.flow.dto;
 
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotBlank;

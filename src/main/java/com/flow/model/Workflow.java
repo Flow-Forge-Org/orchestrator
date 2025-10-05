@@ -1,4 +1,4 @@
-package com.example.flow.model;
+package com.flow.model;
 
 import java.util.*;
 

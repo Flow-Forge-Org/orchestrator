@@ -1,12 +1,7 @@
-package com.example.flow;
+package com.flow;
 
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
-
-import com.example.flow.model.Workflow;
-import com.example.flow.repo.WorkflowRepository;
 
 @SpringBootApplication
 public class OrchestratorApplication {
