@@ -13,10 +13,16 @@
     </parent>
 
     <groupId>com.flow</groupId>
-    <artifactId>orchestrator</artifactId>
+    <artifactId>workflow_service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>orchestrator</name>
     <description>Demo project for Spring Boot</description>
+    <modules>
+        <module>workflow_api</module>
+        <module>workflow_model</module>
+        <module>workflow_impl</module>
+    </modules>
 
     <dependencies>
         <dependency>
