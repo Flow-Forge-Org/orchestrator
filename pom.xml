@@ -16,7 +16,7 @@
     <artifactId>workflow_service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>orchestrator</name>
+    <name>workflow_service</name>
     <description>Demo project for Spring Boot</description>
     <modules>
         <module>workflow_api</module>
