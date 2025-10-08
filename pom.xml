@@ -9,15 +9,13 @@
         <groupId>com.flowForge</groupId>
         <artifactId>core-parent</artifactId>
         <version>1.0.0</version>
-<!--        <relativePath>../flow_core/pom.xml</relativePath>-->
     </parent>
 
-    <groupId>com.flow</groupId>
     <artifactId>workflow_service</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <packaging>pom</packaging>
     <name>workflow_service</name>
     <description>Demo project for Spring Boot</description>
+    <packaging>pom</packaging>
+
     <modules>
         <module>workflow_api</module>
         <module>workflow_model</module>
@@ -60,12 +58,20 @@
         </dependency>
     </dependencies>
 
+    <dependencyManagement>
+        <dependencies>
+        </dependencies>
+    </dependencyManagement>
+
     <build>
         <plugins>
             <!-- Boot plugin comes from parent -->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <skip>true</skip>
+                </configuration>
             </plugin>
         </plugins>
     </build>
