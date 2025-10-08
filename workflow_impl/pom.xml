@@ -18,6 +18,10 @@
             <groupId>com.flowForge</groupId>
             <artifactId>flow_repo</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.flowForge</groupId>
+            <artifactId>workflow_model</artifactId>
+        </dependency>
     </dependencies>
 
 </project>

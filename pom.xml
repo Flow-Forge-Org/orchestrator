@@ -60,6 +60,11 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>com.flowForge</groupId>
+                <artifactId>workflow_model</artifactId>
+                <version>1.0.0</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
