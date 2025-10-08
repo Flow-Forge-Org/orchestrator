@@ -4,14 +4,24 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.flow</groupId>
+        <groupId>com.flowForge</groupId>
         <artifactId>workflow_service</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
 
     <artifactId>workflow_impl</artifactId>
-    <packaging>jar</packaging>
     <name>workflow_impl</name>
     <description>Implementation layer for workflow service</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.flowForge</groupId>
+            <artifactId>flow_repo</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.flowForge</groupId>
+            <artifactId>workflow_model</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
