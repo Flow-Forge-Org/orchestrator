@@ -2,7 +2,6 @@ package com.flow.workflow.config.jpa;
 
 import com.flowForge.config.FlowDBConfig;
 import com.zaxxer.hikari.HikariDataSource;
-import org.springframework.boot.autoconfigure.orm.jpa.JpaProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
