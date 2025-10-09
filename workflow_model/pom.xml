@@ -13,4 +13,11 @@
     <name>workflow_model</name>
     <description>Model layer for workflow service</description>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.flowForge</groupId>
+            <artifactId>flow_repo</artifactId>
+        </dependency>
+    </dependencies>
+
 </project>
