@@ -13,4 +13,11 @@
     <name>workflow_api</name>
     <description>API layer for workflow service</description>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.flowForge</groupId>
+            <artifactId>workflow_model</artifactId>
+        </dependency>
+    </dependencies>
+
 </project>
